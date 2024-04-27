@@ -1,0 +1,15 @@
+.homepage, .footer {
+  background-color: #51869E;
+}
+
+.rates-button {
+  background-color: #51869E;
+}
+
+.footer {
+  row-gap: 1rem
+}
+
+.rates {
+  margin-bottom: 76px;
+}
