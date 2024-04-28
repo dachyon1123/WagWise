@@ -8,18 +8,19 @@ import wagwise3 from "../assets/wagwise-image-3.jpg";
 export default function Homepage() {
   return (
     <div>
-      <div className="flex flex-col w-full mb-20">
-        <Banner
+      <Banner
           title="WagWise Training"
           text="Tailored Training for You and Your Pup's Unique Needs"
         />
-        <div className="flex flex-col relative">
-          <div className="flex flex-row justify-center mt-32">
-            <div className="flex flex-col w-4/12">
-              <h2 className="text-3xl font-bold mb-10 mr-20">
+      <div className="flex flex-col max-w-screen-lg mb-20 mx-auto">
+        
+        <div className="flex flex-col">
+          <div className="flex flex-col-reverse md:flex-row items-center md:justify-center mt-32">
+            <div className="flex flex-col items-center md:items-start">
+              <h2 className="text-3xl font-bold mb-10 md:mr-20 mr-0 md:text-left text-center md:mt-0 mt-10">
                 Teaching Your Dog Good Manners for a Happy Home
               </h2>
-              <p className="mr-20 text-base flex items-center">
+              <p className="md:mr-20 md:text-left md:mx-0 mx-2 text-center text-base flex items-center">
                 At WagWise, I believe in fostering strong, positive
                 relationships between dogs and their owners through
                 personalized, comprehensive training programs. With a focus on
@@ -43,12 +44,12 @@ export default function Homepage() {
             <img className="h-96 w-96 border" src={wagwise1} alt="" />
           </div>
         </div>
-        <div className="flex flex-row justify-center mt-32">
+        <div className="flex flex-col items-center mt-32 md:flex-row md:justify-center">
           <img className="h-96 w-96 border" src={wagwise3} alt="" />
-          <div className="flex flex-col w-4/12">
-            <h2 className="text-3xl font-bold mb-10 ml-20">What I Do</h2>
-            <p className="flex flex-col ml-20 text-sm flex items-center">
-              <strong className="self-start text-base">
+          <div className="flex flex-col mx-2">
+            <h2 className="text-3xl text-center md:text-left font-bold mb-10 md:ml-20 md:mt-0 mt-10">What I Do</h2>
+            <p className="flex flex-col text-center md:text-left md:ml-20 text-sm flex items-center">
+              <strong className="md:self-start text-base">
                 Private Sessions:
               </strong>{" "}
               Personalized one-on-one training sessions tailored to your dog's
@@ -56,7 +57,7 @@ export default function Homepage() {
               addressing specific behavioral issues or for general obedience
               training. <br />
               <br />
-              <strong className="self-start text-base">
+              <strong className="md:self-start text-base">
                 Board and Train:
               </strong>{" "}
               A comprehensive training program where your dog stays with me for
@@ -64,7 +65,7 @@ export default function Homepage() {
               This program is designed to fast-track your dog's learning in a
               controlled environment. <br />
               <br />
-              <strong className="self-start text-base">Boarding:</strong> A safe
+              <strong className="md:self-start text-base">Boarding:</strong> A safe
               and comfortable place for your dog to stay while you're away. Your
               dog will receive individual attention and care, ensuring they feel
               at home during their stay. Each training program is designed to

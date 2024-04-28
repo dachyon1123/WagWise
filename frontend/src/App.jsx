@@ -8,6 +8,7 @@ import AboutMe from "./pages/AboutMe";
 import Rates from "./pages/Rates";
 
 
+
 export default function App() {
   return (
     <div>
@@ -16,7 +17,7 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Homepage />} />
           <Route path="/about-me" element={<AboutMe />} />
-          <Route path="/rates" element={<Rates />} />
+          <Route path="/rates" element={<Rates />} />         
         </Routes>
         <Footer />
       </BrowserRouter>

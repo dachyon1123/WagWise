@@ -6,7 +6,7 @@ export default function Rates() {
     <div className="flex flex-col">
       <Banner
         title="Rates"
-        text="Check out our rates for training sessions and programs."
+        text="Check out my rates for training sessions and programs."
       />
       <div className="rates flex flex-col ml-20 text-sm flex items-center gap-10 mt-24">
         <p className="flex flex-col gap-2 text-center items-center w-1/2">
