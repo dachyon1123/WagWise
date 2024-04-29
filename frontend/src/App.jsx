@@ -11,14 +11,16 @@ import Rates from "./pages/Rates";
 
 export default function App() {
   return (
-    <div>
+    <div className="flex flex-col min-h-screen">
       <BrowserRouter>
-        <Navbar />
-        <Routes>
-          <Route path="/" element={<Homepage />} />
-          <Route path="/about-me" element={<AboutMe />} />
-          <Route path="/rates" element={<Rates />} />         
-        </Routes>
+        <div className="flex-1">
+          <Navbar />
+          <Routes>
+            <Route path="/" element={<Homepage />} />
+            <Route path="/about-me" element={<AboutMe />} />
+            <Route path="/rates" element={<Rates />} />         
+          </Routes>
+        </div>
         <Footer />
       </BrowserRouter>
     </div>

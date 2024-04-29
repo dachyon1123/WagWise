@@ -3,7 +3,7 @@ import "../App.css";
 
 export default function Rates() {
   return (
-    <div className="flex flex-col">
+    <div className="rates-container flex flex-col">
       <Banner
         title="Rates"
         text="Check out my rates for training sessions and programs."

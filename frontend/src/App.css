@@ -1,13 +1,31 @@
-.homepage, .footer {
-  background-color: #51869E;
+.homepage,
+.footer {
+  background-color: #51869e;
+}
+
+.homepage {
+  font-family: "Comfortaa", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.main-container,
+.navbar,
+.about-me-container,
+.rates-container {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
 }
 
 .rates-button {
-  background-color: #51869E;
+  background-color: #51869e;
 }
 
 .footer {
-  row-gap: 1rem
+  row-gap: 1rem;
 }
 
 .rates {

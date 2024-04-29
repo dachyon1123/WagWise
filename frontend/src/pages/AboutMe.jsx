@@ -4,7 +4,7 @@ import "../App.css";
 
 export default function AboutMe() {
   return (
-    <div>
+    <div className="about-me-container">
       <Banner title="About Me" text="" />
       <div className="flex flex-row mb-40">
         <img

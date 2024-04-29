@@ -4,16 +4,16 @@ import "../App.css";
 
 import wagwise1 from "../assets/wagwise-image-1.jpg";
 import wagwise3 from "../assets/wagwise-image-3.jpg";
+import star from "../assets/svg/star.svg";
 
 export default function Homepage() {
   return (
-    <div>
+    <div className="main-container">
       <Banner
-          title="WagWise Training"
-          text="Tailored Training for You and Your Pup's Unique Needs"
-        />
+        title="WagWise Training"
+        text="Tailored Canine Training for You and Your Pup's Unique Needs"
+      />
       <div className="flex flex-col max-w-screen-lg mb-20 mx-auto">
-        
         <div className="flex flex-col">
           <div className="flex flex-col-reverse md:flex-row items-center md:justify-center mt-32">
             <div className="flex flex-col items-center md:items-start">
@@ -47,7 +47,9 @@ export default function Homepage() {
         <div className="flex flex-col items-center mt-32 md:flex-row md:justify-center">
           <img className="h-96 w-96 border" src={wagwise3} alt="" />
           <div className="flex flex-col mx-2">
-            <h2 className="text-3xl text-center md:text-left font-bold mb-10 md:ml-20 md:mt-0 mt-10">What I Do</h2>
+            <h2 className="text-3xl text-center md:text-left font-bold mb-10 md:ml-20 md:mt-0 mt-10">
+              What I Do
+            </h2>
             <p className="flex flex-col text-center md:text-left md:ml-20 text-sm flex items-center">
               <strong className="md:self-start text-base">
                 Private Sessions:
@@ -65,15 +67,73 @@ export default function Homepage() {
               This program is designed to fast-track your dog's learning in a
               controlled environment. <br />
               <br />
-              <strong className="md:self-start text-base">Boarding:</strong> A safe
-              and comfortable place for your dog to stay while you're away. Your
-              dog will receive individual attention and care, ensuring they feel
-              at home during their stay. Each training program is designed to
-              strengthen the bond between you and your dog, providing you with
-              the tools and knowledge you need to continue their training at
-              home.
+              <strong className="md:self-start text-base">Boarding:</strong> A
+              safe and comfortable place for your dog to stay while you're away.
+              Your dog will receive individual attention and care, ensuring they
+              feel at home during their stay. Each training program is designed
+              to strengthen the bond between you and your dog, providing you
+              with the tools and knowledge you need to continue their training
+              at home.
             </p>
           </div>
+        </div>
+      </div>
+      <div className="flex flex-row justify-center gap-10 mx-32 mb-20 mt-32">
+        <div className="flex flex-col justify-between w-80 border border-slate-600 rounded-xl p-10 h-[500px]">
+          <div className="flex flex-row gap-2">
+            <img src={star} alt="" className="h-10 w-10" />
+            <img src={star} alt="" className="h-10 w-10" />
+            <img src={star} alt="" className="h-10 w-10" />
+            <img src={star} alt="" className="h-10 w-10" />
+            <img src={star} alt="" className="h-10 w-10" />
+          </div>
+          <p className="text-sm h-[60%]">
+            "My Archie can be a pain in the butt when it comes to meeting new
+            people, but after working with Bradley he has shown progress
+            adapting to controlling his behavior. Highly recommend this service
+            as Bradley is extremely proficient in training as well as keeping a
+            positive, professional environment. 5/5 stars. Looking forward to
+            continuing Archie’s progression through Bradley’s training
+            services!"
+          </p>
+          <h2 className="text-lg font-bold">Caitlyn K.</h2>
+        </div>
+
+        <div className="flex flex-col justify-between w-80 border border-slate-600 rounded-xl p-10 h-[500px]">
+          <div className="flex flex-row gap-2">
+            <img src={star} alt="" className="h-10 w-10" />
+            <img src={star} alt="" className="h-10 w-10" />
+            <img src={star} alt="" className="h-10 w-10" />
+            <img src={star} alt="" className="h-10 w-10" />
+            <img src={star} alt="" className="h-10 w-10" />
+          </div>
+          <p className="text-sm h-[60%]">
+            "I have 2 massive chocolate labs that basically walk me. I
+            had ONE session with bradley and now I am actually able to walk
+            them! Bradley was able to implement different training exercises and
+            teach me how to properly communicate with them resulting with my
+            dogs understanding what I am asking of them. I am super excited to
+            continue working with my dogs and actually be able to take family
+            walks!"
+          </p>
+          <h2 className="text-lg font-bold">Lyndall S.</h2>
+        </div>
+
+        <div className="flex flex-col justify-between w-80 border border-gray-800 rounded-xl p-10 h-[500px]">
+          <div className="flex flex-row gap-2">
+            <img src={star} alt="" className="h-10 w-10" />
+            <img src={star} alt="" className="h-10 w-10" />
+            <img src={star} alt="" className="h-10 w-10" />
+            <img src={star} alt="" className="h-10 w-10" />
+            <img src={star} alt="" className="h-10 w-10" />
+          </div>
+          <p className="text-sm h-[60%] text-start">
+            "Bradley trained both my dogs! He is great and really knows his
+            stuff. I call him the “dog whisperer”. He delivered obedience
+            training, which is needed for a dog to qualify as a service dog. He
+            came to my house and we also went to dog parks."
+          </p>
+          <h2 className="text-lg font-bold">Rocio L.</h2>
         </div>
       </div>
     </div>
