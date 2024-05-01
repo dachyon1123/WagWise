@@ -12,11 +12,16 @@
 
 .main-container,
 .navbar,
-.about-me-container,
 .rates-container {
   font-family: "Manrope", sans-serif;
   font-optical-sizing: auto;
   font-weight: 500;
+  font-style: normal;
+}
+
+.about-me-container {
+  font-family: "Patrick Hand", cursive;
+  font-weight: 400;
   font-style: normal;
 }
 

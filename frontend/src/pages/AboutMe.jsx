@@ -1,14 +1,15 @@
 import Banner from "../components/Banner";
 import wagwise4 from "../assets/wagwise-image-4.jpg";
+import wagwise2 from "../assets/wagwise-image-2.jpg";
 import "../App.css";
 
 export default function AboutMe() {
   return (
     <div className="about-me-container">
       <Banner title="About Me" text="" />
-      <div className="flex flex-row mb-40">
+      <div className="flex flex-row justify-center mb-32">
         <img
-          className="about-me mt-20 ml-20 h-3/4 w-1/4 rounded-lg"
+          className="about-me mt-20 ml-20 h-[300px] w-[250px] rounded-lg"
           src={wagwise4}
           alt=""
         />
