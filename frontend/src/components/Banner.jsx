@@ -5,7 +5,7 @@ export default function Banner(props) {
     <div className="homepage flex flex-col items-center justify-center text-gray-50 h-44">
       <img src="" alt="" />
       <h1 className="mt-10 mb-5 text-3xl font-bold">{props.title}</h1>
-      <p className="mb-10">
+      <p className="mb-10 text-center">
         {props.text}
       </p>
     </div>

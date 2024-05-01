@@ -31,7 +31,7 @@ export default function Homepage() {
         title="WagWise Training"
         text="Tailored Canine Training for You and Your Pup's Unique Needs"
       />
-      <div className="flex flex-col max-w-screen-lg mx-auto">
+      <div className="flex flex-col max-w-screen-lg md:mx-auto mx-4">
         <div className="flex flex-col">
           <div className="flex flex-col-reverse md:flex-row items-center md:justify-center mt-32">
             <div className="flex flex-col items-center md:items-start">

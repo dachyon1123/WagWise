@@ -3,6 +3,7 @@ import "./index.css";
 
 import Homepage from "./pages/Homepage";
 import Navbar from "./components/Navbar";
+import NavbarTest from "./components/NavbarTest";
 import Footer from "./components/Footer";
 import AboutMe from "./pages/AboutMe";
 import Rates from "./pages/Rates";
@@ -14,7 +15,7 @@ export default function App() {
     <div className="flex flex-col min-h-screen">
       <BrowserRouter>
         <div className="flex-1">
-          <Navbar />
+          <NavbarTest />
           <Routes>
             <Route path="/" element={<Homepage />} />
             <Route path="/about-me" element={<AboutMe />} />
